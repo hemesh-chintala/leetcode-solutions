@@ -1,0 +1,29 @@
+//812
+//Largest Traingle Area
+//given array of points ((x1,y1),(x2,y2),(x3,y3)) ,find largest area from the how many triangles and return maximunm area
+
+class LargestTriangle {
+    public static double largestTriangleArea(int[][] points) {
+        double maxArea = 0.0;
+        int n = points.length;
+
+        for (int i = 0; i < n; i++) {
+            for (int j = i + 1; j < n; j++) {
+                for (int k = j + 1; k < n; k++) {
+                    double area = 0.5 * Math.abs(
+                        points[i][0] * (points[j][1] - points[k][1]) +
+                        points[j][0] * (points[k][1] - points[i][1]) +
+                        points[k][0] * (points[i][1] - points[j][1])
+                    );
+                    maxArea = Math.max(maxArea, area);
+                }
+            }
+        }
+        return maxArea;
+    }
+
+    public static void main(String[] args) {
+        int[][] points = {{0,0},{0,1},{1,0},{0,2},{2,0}};
+        System.out.printf("Largest Triangle Area: %.5f\n", largestTriangleArea(points));
+    }
+}
