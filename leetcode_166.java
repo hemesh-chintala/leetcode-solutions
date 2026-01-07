@@ -37,4 +37,5 @@ class FractionToRecurringDecimal {
         System.out.println(sol.fractionToDecimal(1, 5));    
         System.out.println(sol.fractionToDecimal(-50, 8)); 
     }
+
 }
