@@ -1,0 +1,36 @@
+1. Two Sum (LC #1)
+→ Find two indices whose values add up to a target.
+7. Reverse Integer (LC #7)
+→ Reverse digits of an integer while handling 32-bit overflow.
+9. Palindrome Number (LC #9)
+→ Check if a number reads the same forward and backward.
+11. Container With Most Water (LC #11)
+→ Use two pointers to find maximum water stored between lines.
+28. Find the Index of the First Occurrence in a String (LC #28)
+→ Return the first index of a substring in a string or −1.
+120. Triangle (LC #120)
+→ Find minimum path sum from top to bottom using dynamic programming.
+165. Compare Two Version Numbers (LC #165)
+→ Compare version numbers by checking each numeric segment.
+166. Fraction to Recurring Decimal (LC #166)
+→ Convert a fraction to decimal and mark repeating parts in parentheses.
+407. Trapping Rain Water II (LC #407)
+→ Calculate trapped rainwater in a 2D grid using a min-heap.
+417. Pacific Atlantic Water Flow (LC #417)
+→ Find cells where water can flow to both oceans.
+611. Valid Triangle Number (LC #611)
+→ Count triplets that can form valid triangles.
+812. Largest Triangle Area (LC #812)
+→ Find the maximum area from any three points.
+976. Largest Perimeter Triangle (LC #976)
+→ Return the largest possible triangle perimeter from array values.
+1039. Minimum Score Triangulation of Polygon (LC #1039)
+→ Minimize triangulation score using dynamic programming.
+1518. Water Bottles (LC #1518)
+→ Calculate total bottles drunk after exchanging empty bottles.
+2221. Triangle Sum of an Array (LC #2221)
+→ Repeatedly sum adjacent elements until one number remains.
+3005. Count Elements With Maximum Frequency (LC #3005)
+→ Count elements that appear the maximum number of times.
+3100. Water Bottles II (LC #3100)
+→ Bottle exchange problem where the exchange rate increases.
