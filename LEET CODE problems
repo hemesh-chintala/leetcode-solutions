@@ -1,5 +1,7 @@
 1. Two Sum (LC #1)
 → Find two indices whose values add up to a target.
+2. Add Two Numbers (LC #2)
+→ Given two linked lists and each node contains one value in reverse order and add each in both and return result.
 7. Reverse Integer (LC #7)
 → Reverse digits of an integer while handling 32-bit overflow.
 9. Palindrome Number (LC #9)
