@@ -1,8 +1,10 @@
 //09
 //Palindrome Number
 
-class Solution {
-    public boolean isPalindrome(int x) {
+import java.util.Scanner;
+
+class leetcode_9 {
+    public static boolean isPalindrome(int x) {
         int temp=x;
         int sum=0;
         while(x >0){
@@ -17,5 +19,13 @@ class Solution {
             return false;
         }
         
+    }
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+        int x = sc.nextInt();
+        System.out.println(isPalindrome(x));
+        
+        sc.close();
     }
 }

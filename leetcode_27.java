@@ -2,7 +2,7 @@
 //Remove Element
 /* Given an integer array nums and an integer val, remove all occurrences of val in nums in-place.
  The order of the elements may be changed. Then return the number of elements in nums which are not equal to val.*/
-class Solution {
+class leetcode_27 {
 
    
     public int removeElement(int[] nums, int val) {
@@ -18,7 +18,7 @@ class Solution {
 
    
     public static void main(String[] args) {
-        Solution sol = new Solution();
+        leetcode_27 sol = new leetcode_27();
 
         int[] nums = {3, 2, 2, 3};
         int val = 3;

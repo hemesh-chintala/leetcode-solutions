@@ -4,7 +4,7 @@
      remove the duplicates in-place such that each unique element appears only once. 
             The relative order of the elements should be kept the same. */
 
-class Solution {
+class leetcode_26 {
 
     public int removeDuplicates(int[] nums) {
         if (nums.length == 0)
@@ -23,7 +23,7 @@ class Solution {
 
     // Main method for testing
     public static void main(String[] args) {
-        Solution sol = new Solution();
+        leetcode_26 sol = new leetcode_26();
 
         int[] nums = {1, 1, 2, 2, 3};
 
