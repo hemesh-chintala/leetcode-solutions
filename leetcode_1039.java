@@ -3,7 +3,7 @@
 //we have given an array of vertiices of a polygon , we have diide it into triangle and find the minimimum score
 
 
-class TriangulationScore {
+class leetcode_1039 {
     public int minScoreTriangulation(int[] values) {
         int n = values.length;
         int[][] dp = new int[n][n];
@@ -24,7 +24,7 @@ class TriangulationScore {
     }
 
     public static void main(String[] args) {
-        TriangulationScore sol = new TriangulationScore();
+        leetcode_1039 sol = new leetcode_1039();
 
         int[] values1 = {1, 2, 3};
         System.out.println(sol.minScoreTriangulation(values1)); 

@@ -5,7 +5,7 @@
 
 import java.util.*;
 
-class TriangleSum {
+class leetcode_120 {
     
     public int minimumTotal(List<List<Integer>> triangle) {
         for (int i = triangle.size() - 2; i >= 0; i--) {
@@ -18,7 +18,7 @@ class TriangleSum {
     }
 
     public static void main(String[] args) {
-        TriangleSum sol = new TriangleSum();
+        leetcode_120 sol = new leetcode_120();
         List<List<Integer>> triangle = new ArrayList<>();
         triangle.add(Arrays.asList(2));
         triangle.add(Arrays.asList(3, 4));

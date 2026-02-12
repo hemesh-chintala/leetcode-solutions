@@ -4,7 +4,7 @@
 
 import java.util.*;
 
-class PacificAtlanticWaterFlow {
+class leetcode_417 {
     int m, n;
     int[][] heights;
     int[][] dirs = {{1,0},{-1,0},{0,1},{0,-1}}; // directions: down, up, right, left
@@ -53,7 +53,7 @@ class PacificAtlanticWaterFlow {
     
     // Example usage
     public static void main(String[] args) {
-        PacificAtlanticWaterFlow sol = new PacificAtlanticWaterFlow();
+        leetcode_417 sol = new leetcode_417();
         
         int[][] heights = {
             {1,2,2,3,5},

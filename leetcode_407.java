@@ -4,7 +4,7 @@
 
 import java.util.*;
 
-public class TrappingRainWater {
+public class leetcode_407 {
 
     public int trapRainWater(int[][] heightMap) {
         if (heightMap == null || heightMap.length == 0 || heightMap[0].length == 0) return 0;
@@ -65,7 +65,7 @@ public class TrappingRainWater {
 
     // Main function to test the code
     public static void main(String[] args) {
-        TrappingRainWater sol = new TrappingRainWater();
+        leetcode_407 sol = new leetcode_407();
 
         int[][] heightMap = {
             {1,4,3,1,3,2},

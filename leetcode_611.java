@@ -5,7 +5,7 @@
 
 import java.util.Arrays;
 
-class ValidTriangles {
+class leetcode_611 {
     public static int countValidTriangles(int[] arr) {
         int n = arr.length;
         int count = 0;

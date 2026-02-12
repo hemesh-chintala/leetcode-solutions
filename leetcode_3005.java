@@ -4,7 +4,7 @@
 
 import java.util.*;
 
-class MaximumFrequency {
+class leetcode_3005 {
     public int maxFrequencyElements(int[] nums) {
         Map<Integer, Integer> freq = new HashMap<>();
         
@@ -29,7 +29,7 @@ class MaximumFrequency {
     }
 
     public static void main(String[] args) {
-        MaximumFrequency sol = new MaximumFrequency();
+        leetcode_3005 sol = new leetcode_3005();
         int[] nums = {1,2,2,3,2,3,1,4};
         System.out.println(sol.maxFrequencyElements(nums)); 
     }
